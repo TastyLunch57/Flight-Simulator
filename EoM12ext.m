@@ -1,0 +1,1 @@
+function ydot = EoM12ext(t,y)	x = y(1:12);    % state vectoru = y(13:16);   % control vectorydot = EoM12(t,x,u);end
